@@ -1,6 +1,6 @@
 #Text Data Preprocessing Lib
 import nltk
-nltk.download()
+nltk.download('punkt')
 from nltk.stem import PorterStemmer
 stemmer = PorterStemmer()
 
